@@ -1,0 +1,39 @@
+.studio {
+  position: relative;
+  width: 58rem;
+  height: 38rem;
+  float: left;
+}
+
+.habit {
+  position: relative;
+  width: 35rem;
+  height: 23rem;
+  float: right;
+  /* bottom: 25rem; */
+  top: 15rem;
+}
+
+.music {
+  width: 35rem;
+  height: 23rem;
+  position: relative;
+  /* left: 40rem; */
+  right: 10rem;
+  top: 10rem;
+}
+.studio__text {
+  position: relative;
+  top: 5rem;
+  z-index: 2;
+  font-family: var(--font);
+  color: var(--clr-yellow);
+  left: 2rem;
+}
+
+a {
+  text-decoration: none;
+}
+a:visited {
+  color: inherit;
+}

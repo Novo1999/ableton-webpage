@@ -1,0 +1,36 @@
+.nav {
+  display: flex;
+  list-style-type: none;
+  gap: 3rem;
+  font-size: 18px;
+  font-family: var(--font);
+  justify-content: space-between;
+  padding: 1.2rem 2rem 1rem 1rem;
+}
+.nav a:link:not(.icon, .rightNav__login, #rightNav__try_live):hover {
+  border-bottom: 2px solid black;
+}
+.nav a:link,
+.nav a:visited {
+  text-decoration: none;
+  color: inherit;
+}
+
+.leftNav {
+  display: flex;
+  list-style: none;
+  gap: 3rem;
+}
+
+.rightNav {
+  display: flex;
+  list-style: none;
+  gap: 3rem;
+}
+#rightNav__try_live {
+  color: var(--clr-blue);
+}
+
+.rightNav__login {
+  font-size: 14px;
+}
