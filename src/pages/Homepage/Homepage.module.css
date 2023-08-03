@@ -1,7 +1,6 @@
 .home {
   background-color: #ffffff;
-  width: 100rem;
-  height: 80rem;
-  margin: auto;
+  max-width: 150rem;
+  margin: 0 auto;
   padding-top: 0.5rem;
 }

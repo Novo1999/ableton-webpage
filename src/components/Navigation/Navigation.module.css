@@ -5,7 +5,7 @@
   font-size: 18px;
   font-family: var(--font);
   justify-content: space-between;
-  padding: 1.2rem 2rem 1rem 1rem;
+  padding: 2.2rem 2.5rem 0 2.5rem;
 }
 .nav a:link:not(.icon, .rightNav__login, #rightNav__try_live):hover {
   border-bottom: 2px solid black;

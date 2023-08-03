@@ -1,39 +1,45 @@
-.studio {
+.image__section {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.studio_link {
   position: relative;
-  width: 58rem;
-  height: 38rem;
-  float: left;
+  top: 15rem;
+  padding-left: 7rem;
+}
+
+.studio__img {
+  max-width: 120%;
+}
+.habit__img,
+.music__img {
+  max-width: 70%;
 }
 
 .habit {
   position: relative;
-  width: 35rem;
-  height: 23rem;
-  float: right;
-  /* bottom: 25rem; */
-  top: 15rem;
-}
-
-.music {
-  width: 35rem;
-  height: 23rem;
-  position: relative;
-  /* left: 40rem; */
-  right: 10rem;
-  top: 10rem;
-}
-.studio__text {
-  position: relative;
   top: 5rem;
+}
+.habit_link {
+  position: relative;
+  left: 27rem;
+  top: 24rem;
   z-index: 2;
-  font-family: var(--font);
-  color: var(--clr-yellow);
-  left: 2rem;
+}
+.habit__img {
+  position: relative;
+  left: 22.4rem;
+  top: 14.5rem;
+}
+.music_link {
+  position: relative;
+  top: 15rem;
+  left: 5rem;
 }
 
-a {
-  text-decoration: none;
-}
-a:visited {
-  color: inherit;
+.music__img {
+  position: relative;
+  left: 70rem;
+  bottom: 15rem;
 }
